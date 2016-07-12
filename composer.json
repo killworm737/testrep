@@ -1,0 +1,17 @@
+{
+    "name": "kimchen/testrep",
+    "authors": [
+        {
+            "name": "Kim chen",
+            "email": "kimchen@jourdeness.com.tw"
+        }
+    ],
+    "require": {
+        "phpspec/phpspec": "^2.5"
+    },
+    "autoload" : {
+        "psr-4" : {
+          "testrep\\" : "src/testrep"
+        }
+    }
+}
