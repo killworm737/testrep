@@ -11,4 +11,9 @@ class testrepSpec extends ObjectBehavior
     {
         $this->shouldHaveType('testrep\testrep');
     }
+
+    function let($flag)
+    {
+        $this->beConstructedWith($flag);
+    }
 }
